@@ -1,3 +1,15 @@
+server/config.js:
+
+const config = {
+  mongoURL: process.env.MONGO_URL || 'mongodb://localhost:27017/mern-starter',
+  port: process.env.PORT || 8000,
+};
+
+export default config;
+
+
+----- below from forked repo -----
+
 ![](http://res.cloudinary.com/hashnode/image/upload/w_200/v1466495663/static_imgs/mern/v2/mernio-logo.png)
 
 # mern-starter
